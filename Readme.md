@@ -41,15 +41,15 @@ Node.js & Express: Lenguaje del microservicio de Error (Servidor).
 
 3. Estructura del Proyecto
 
-Patron/
-    cliente/
-        -dockerfile
-        -main.py
-    Servicio/
-        -Dockerfile
-        -server.js
-    Docker-compose
-    
+Patron
+├── docker-compose.yml     
+├── cliente/
+│   ├── Dockerfile         
+│   └── main.py           
+└── servicio/
+    ├── Dockerfile         
+    └── server.js   
+
   
 
 4. Instrucciones de Ejecución
