@@ -45,9 +45,11 @@ Patron
 
 ├── docker-compose.yml     
 ├── cliente/
+
 │   ├── Dockerfile         
 │   └── main.py           
 └── servicio/
+
     ├── Dockerfile         
     └── server.js   
 
