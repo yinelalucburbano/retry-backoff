@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  servicio-error:
+    build: ./servicio
+    container_name: servicio-error
+    tty: true
+
+  cliente:
+    build: ./cliente
+    container_name: cliente-retry
+    tty: true
+    environment:
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      - servicio-error
