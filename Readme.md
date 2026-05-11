@@ -1,4 +1,5 @@
 Implementación del Patrón Retry con Backoff Exponencial
+
 Este repositorio contiene una demostración práctica del patrón de diseño de microservicios Retry with Exponential Backoff, implementado utilizando Python (Tenacity), Node.js y orquestado con Docker Compose.
 
 1. Conceptos Teóricos
